@@ -1,0 +1,13 @@
+{
+  "description": "Handoff Kit Lite: re-inject tasks/handoff.md when a session starts, resumes or is compacted.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|compact",
+        "hooks": [
+          { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/hook_start.py\"", "timeout": 15 }
+        ]
+      }
+    ]
+  }
+}
