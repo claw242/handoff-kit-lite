@@ -1,0 +1,9 @@
+{
+  "name": "handoff-kit-lite",
+  "displayName": "Handoff Kit Lite",
+  "version": "1.0.0",
+  "description": "Re-inject tasks/handoff.md at session start, resume and compaction. Free lite version of Handoff Kit. Created with AI assistance by Loupe & Lettres.",
+  "author": { "name": "Loupe & Lettres" },
+  "license": "MIT",
+  "keywords": ["handoff", "session", "hooks"]
+}
